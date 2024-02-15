@@ -15,14 +15,16 @@
 
 body {
   background-color: #0f172a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 main {
   padding: 20px;
   max-width: 640px;
   margin: 0 auto 64;
-  left: 50px
-
 }
 
 header {
@@ -39,6 +41,9 @@ header h1 {
 
 #quiz {
   counter-reset: quiz-item;
+  margin: 30px;
+  display: inline-block;
+
 }
 
 .quiz-Item{
@@ -55,7 +60,7 @@ header h1 {
   display: flex;
   align-items: center;
   gap: 12px;
-
+  margin: 50px;
   background-color: #1e293b;
 }
 
@@ -79,6 +84,7 @@ header h1 {
 
   display: grid;
   gap: 8px;
+
 }
 
 .quiz-Item dl dt {
@@ -131,3 +137,4 @@ input:checked:before{
   width: 100%;
   padding: 2%;
 }
+
